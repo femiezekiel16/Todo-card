@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.todo-card {
+  background: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.todo-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Priority */
+.priority {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.priority.high {
+  background: #ffe5e5;
+  color: #d60000;
+}
+
+/* Time section */
+.time-info {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+/* Status */
+.status-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#status {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  gap: 8px;
+  margin: 15px 0;
+  list-style: none;
+  padding: 0;
+}
+
+.tags li {
+  background: #eef;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.actions button {
+  border: none;
+  background: #eee;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background: #ddd;
+}
+
+/* Completed state */
+.completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.priority.medium {
+  background: #fff4e5;
+  color: #ff9800;
+}
+
+.priority.low {
+  background: #e5ffe5;
+  color: #2e7d32;
+}
+
+.actions button:active {
+  transform: scale(0.95);
+}
