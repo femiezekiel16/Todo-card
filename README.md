@@ -10,11 +10,10 @@ Rather than a static UI, this version behaves more like a **mini productivity mo
 
 ## 🚀 Live Demo
 
-👉 [Add your deployed URL here]
-
+👉 https://todo-card-zeta.vercel.app
 ## 📂 Repository
 
-👉 [Add your GitHub repo link here]
+👉 https://github.com/femiezekiel16/Todo-card
 
 ---
 
@@ -185,65 +184,9 @@ This prevents inconsistent UI behavior.
 
 ---
 
-### ✅ Keyboard Flow
 
-Tab order follows logical interaction:
 
-1. Checkbox
-2. Status control
-3. Expand toggle
-4. Edit
-5. Delete
-6. Save / Cancel (edit mode)
-
----
-
-### ⚠️ Areas for Improvement
-
-* Focus trap inside edit mode (planned)
-* Better screen reader announcements for status changes
-
----
-
-# 🧪 Testing Readiness
-
-All required `data-testid` attributes are implemented for:
-
-* Core card elements
-* Edit form
-* Status controls
-* Expand/collapse
-* Time indicators
-
-This ensures compatibility with automated testing tools.
-
----
-
-# 🧠 Key Takeaway
-
-This stage demonstrates the transition from:
-
-> **Static UI → Interactive, state-driven component**
-
-It reflects real-world frontend skills:
-
-* State management
-* UI synchronization
-* Accessibility awareness
-* Component design thinking
-
----
-
-# 🚀 Next Steps (Future Improvements)
-
-* Convert to **React component**
-* Add **multiple cards (full Todo app)**
-* Integrate **localStorage or backend API**
-* Add **animations & micro-interactions**
-* Implement **unit tests**
-
----
 
 ## 👨‍💻 Author
 
-Your Name Here
+Abiodun Femi
